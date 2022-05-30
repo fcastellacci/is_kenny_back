@@ -28,8 +28,13 @@ body {
 }
 
 .banner {
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+    color: #ddd;
     width: 100%;
     margin: 5rem;
+    font-size: 10rem;
 }
 
 .clock {
@@ -39,19 +44,18 @@ body {
 }
 
 .legend {
-    width: 70vw;
-    text-align: center;
+    width: 100%;
     margin: 3rem;
+    display: flex;
+    justify-content: center;
 }
 
-.banner,
-.legend span {
+.legend p {
     width: 80%;
     text-align: center;
-    margin-top: 30px;
+    font-size: 3rem;
     color: #ddd;
     text-transform: uppercase;
-    font-size: 64px;
     letter-spacing: 2px;
     text-shadow: 1px 1px 1px rgba(10, 10, 10, 0.7);
 }
